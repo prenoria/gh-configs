@@ -1,0 +1,13 @@
+version: v1
+
+labels:
+  - label: "bug"
+    sync: true
+    matcher:
+      title: "fix:"
+      body: "fix:"
+  - label: "enhancement"
+    sync: true
+    matcher:
+      title: "feat:"
+      body: "feat:"
